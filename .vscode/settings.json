@@ -1,0 +1,26 @@
+{
+    "cSpell.words": [
+        "amqp",
+        "com",
+        "fiber",
+        "gofiber",
+        "gomock",
+        "mailburrow",
+        "modernc",
+        "notnull",
+        "nullzero",
+        "pkgmail",
+        "rabbitmq",
+        "sqlconn",
+        "sqldb",
+        "sqlitedialect",
+        "sqliteshim",
+        "uber",
+        "uuid",
+        "GOFILE"
+    ],
+    "cSpell.ignoreWords": [
+        "mockgen",
+        "uptrace"
+    ]
+}
