@@ -1,0 +1,18 @@
+@baseUrl = http://localhost:8080/api/v1
+
+### Publish email
+POST {{baseUrl}}/emails/publish
+Content-Type: application/json
+
+{
+  "to": "receiver@example.com",
+  "from": "sender@example.com",
+  "subject": "Hello from Mail Burrow",
+  "body": "This is a test email sent through the async email flow."
+}
+
+### Get email status
+@emailId = paste-email-id-here
+
+GET {{baseUrl}}/emails?id={{emailId}}
+Accept: application/json
